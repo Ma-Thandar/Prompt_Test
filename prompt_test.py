@@ -1,7 +1,6 @@
 #pip install langchain-groq
 #pip install langchain
 import streamlit as st
-import chromadb
 from langchain_groq import ChatGroq
 import os
 import subprocess
