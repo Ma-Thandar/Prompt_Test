@@ -17,5 +17,5 @@ st.write(response.content)
 #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
 
 
-chroma_client = chromadb.Client()
-collection = chroma_client.create_collection(name="my_collection")
+#chroma_client = chromadb.Client()
+#collection = chroma_client.create_collection(name="my_collection")
