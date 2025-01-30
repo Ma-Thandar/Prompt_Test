@@ -5,6 +5,7 @@ import streamlit as st
 from langchain_groq import ChatGroq
 import os
 import subprocess
+import sqlite3
 
 st.write("Current Working Directory:", os.getcwd())
 
