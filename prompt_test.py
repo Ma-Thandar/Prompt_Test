@@ -1,5 +1,6 @@
 #pip install langchain-groq
 #pip install langchain
+import langchain
 import streamlit as st
 from langchain_groq import ChatGroq
 import os
