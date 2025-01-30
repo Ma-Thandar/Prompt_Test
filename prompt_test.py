@@ -3,6 +3,8 @@
 import streamlit as st
 import chromadb
 from langchain_groq import ChatGroq
+import os
+st.write("Current Working Directory:", os.getcwd())
 
 llm = ChatGroq(    
     temperature=0,
